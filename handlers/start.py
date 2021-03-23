@@ -39,7 +39,7 @@ async def start(_, message: Message):
 @Client.on_message(command("start") & other_filters)
 async def start2(_, message: Message):
     await message.reply_text(
-        "**Hêllẞø†:** I'm Working!!!\nUse me in Inline to search for a YouTube Video/Music. \n**Happy Streaming**",
+        "** JaaduOP:** I'm Working!!!\nUse me in Inline to search for a YouTube Video/Music. \n**Happy Streaming**",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
